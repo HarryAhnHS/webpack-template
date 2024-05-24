@@ -1,7 +1,7 @@
 {
-  "name": "todo",
+  "name": "blank",
   "version": "1.0.0",
-  "description": "The Odin Project - Todo List with local storage",
+  "description": "Blank",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

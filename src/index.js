@@ -1,6 +1,4 @@
 import './style/style.css';
-import UI from './UI.js';
+import Git from './images/github.png';
 
-// localStorage.clear()
-
-UI.init();
+document.getElementById("github").src = Git; // Fill github logo
