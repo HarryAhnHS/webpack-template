@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThingsToDo</title>
+    <link id="favicon" rel="icon" type="image/png">
+</head>
+<body>
+    <div class="header">
+        <i class="headerIcon"></i>
+        <span>ThingsToDo</span>
+    </div>
+
+    <!-- New Project Modal -->
+    <dialog class="new-project-dialog">
+        <form name="new-project-form" class="new-project-dialog-container">
+            <div class="new-project-dialog-title"></div>
+            <div class="new-project-dialog-inputs">
+                <label for="project-name">Name</label>
+                <input id="project-name" type="text" maxlength="12" placeholder="Choose a name">
+    
+                <div class="project-color">
+                    <span>Choose a color:</span>
+                    <div class="colors">
+                        <div class="color selected" id="f94144"></div>
+                        <div class="color" id="f9844a"></div>
+                        <div class="color" id="f9c74f"></div>
+                        <div class="color" id="90be6d"></div>
+                        <div class="color" id="43aa8b"></div>
+                        <div class="color" id="4d908e"></div>
+                        <div class="color" id="577590"></div>
+                        <div class="color" id="277da1"></div> 
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="new-project-dialog-buttons">
+                <button id="new-project-cancel">Cancel</button>
+                <button id="new-project-submit">Add</button>
+            </div>
+            
+        </form>
+    </dialog>
+
+    <!-- New/Edit Todo Modal -->
+    <dialog class="new-todo-dialog">
+        <form name="new-todo-form" class="new-todo-dialog-container">
+            <div class="new-todo-dialog-title">Create New Todo</div>
+            <div class="new-todo-dialog-project">
+                <div class="intro">in Project&nbsp;</div>
+                <div class="sharp-name"></div>
+            </div>
+
+            <div class="new-todo-dialog-inputs">
+                <div class="title-input">
+                    <label for="todo-title">Title</label>
+                    <input id="todo-title" type="text" maxlength="50" placeholder="Choose a title">
+                </div>
+                
+            
+                <div class="desc-input">
+                    <label for="todo-desc">Description</label>
+                    <input id="todo-desc" type="text" placeholder="Add a description">
+                </div>
+                
+                
+                <div class="datetime-input">
+                    <label for="todo-date">Due Date</label>
+                    <div>
+                        <input id="todo-date" type="date">
+                        <input id="todo-time" type="time">
+                    </div>
+                </div>
+                
+                <div class="priority-input">
+                    <span>Choose a priority:</span>
+                    <div class="priorities">
+                        <div class="priority-radio selected" id="low">
+                            Low
+                        </div>
+                        <div class="priority-radio" id="medium">
+                            Medium
+                        </div>
+                        <div class="priority-radio" id="high">
+                            High
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="new-todo-dialog-buttons">
+                <button id="new-todo-cancel">Cancel</button>
+                <button id="new-todo-submit">Add</button>
+            </div>
+            
+        </form>
+    </dialog>
+
+    <!-- View Todo Modal -->
+    <dialog class="view-todo-dialog">
+        <div class="view-todo-dialog-container">
+            <div id="view-cancel">&#x2715;</div>
+            <div class="view-todo">
+                <div class="view-title-container">
+                    <span class="view-title-intro">
+                        Todo:&nbsp;
+                    </span>
+                    <div class="view-title">
+
+                    </div>
+                </div>
+                <div class="view-title-tags">
+                </div>
+                <div class="view-desc">
+                    <div class="view-desc-text">
+
+                    </div>
+                </div>
+                <div class="view-date-time">
+                    <div class="view-distance">
+
+                    </div>
+                    <div class="view-date-time-container">
+                        <div class="view-date">
+                            <i class="date-icon view-only">
+                            </i>
+                            <div class="view-date-text">
+    
+                            </div>
+                        </div>
+                        <div class="view-time">
+                            <i class="time-icon view-only">
+                            </i>
+                            <div class="view-time-text">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </dialog>
+
+    <div class="sidebar opened">
+        <div class="open-close">
+            <a href="javascript:void(0)" class="openbtn">&#9776;</a>
+        </div>
+        <div class="sidebar-defaults">
+        </div>
+
+        <div class="my-projects">
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="main-head">
+            </div>
+            <div class="todo-list">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; Copyright by @HarryAhnHS 
+        <a href="https://github.com/HarryAhnHS" class="github-a" target="_blank">
+            <div class="github-logo">
+                <img id="github" alt="github">
+            </div>
+        </a>
+    </div>
+</body>
+</html>
