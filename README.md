@@ -44,6 +44,18 @@ npm install -D babel-loader @babel/core @babel/preset-env webpack
 - ```npm run build```
 - ```npm run start```
 
+### Deploying 'dist' subdirectory to Github Pages (https://gist.github.com/cobyism/4730490)
+```
+npm run build
+```
+```
+git add dist && git commit -m "Dist subtree commit"
+```
+```
+git subtree push --prefix dist origin gh-pages
+```
+
+
 
 ## Resources: 
 ### Odin
@@ -52,7 +64,5 @@ https://www.theodinproject.com/lessons/node-path-javascript-webpack
 https://www.theodinproject.com/lessons/node-path-javascript-linting
 https://www.theodinproject.com/lessons/node-path-javascript-what-is-es6
 
-### Deploying 'dist' folder subdirectory to Github Pages
-https://gist.github.com/cobyism/4730490
 
 
