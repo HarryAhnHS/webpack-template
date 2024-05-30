@@ -24,9 +24,9 @@ Template with basic webpack.config.js setup, package.json dependencies, and othe
 ### Babel-loader (https://github.com/babel/babel-loader)
 ```npm install -D babel-loader @babel/core @babel/preset-env webpack```
 
-## NPM Scripts:
-Webpack Build ```npm run build```
-Live Start ```npm run start```
+### NPM Scripts:
+- Webpack Build ```npm run build```
+- Live Start ```npm run start```
 
 
 ## Resources: 
