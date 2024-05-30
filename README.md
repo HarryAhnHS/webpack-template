@@ -1,4 +1,4 @@
-# blank
+# Blank Template
 
 Basic Setup
 ```npm init -y```
