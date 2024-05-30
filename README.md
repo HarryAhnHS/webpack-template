@@ -4,7 +4,7 @@ Basic Setup
 ```npm init -y```
 ```npm install webpack webpack-cli --save-dev```
 
-html-webkit-plugin
+html-webpack-plugin
 ```npm install --save-dev html-webpack-plugin```
 
 CSS Loader (https://webpack.js.org/guides/asset-management/#setup)
@@ -22,10 +22,11 @@ Prettier Resolution (Optional but recommended) (https://github.com/prettier/pret
 Babel-loader (https://github.com/babel/babel-loader)
 ```npm install -D babel-loader @babel/core @babel/preset-env webpack```
 
-Build
-```npm run build```
+NPM Scripts:
+Webpack Build ```npm run build```
+Live Start ```npm run start```
 
-Template with basic webkit.config.js setup, package.json dependencies, and other config files. 
+Template with basic webpack.config.js setup, package.json dependencies, and other config files. 
 
 
 
