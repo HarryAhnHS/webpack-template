@@ -1,4 +1,4 @@
-# Blank Template
+# Webpack Template
 Template with basic webpack.config.js setup, package.json dependencies, and other config files. 
 
 ## CLI Setup 
