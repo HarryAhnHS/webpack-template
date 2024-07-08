@@ -4,7 +4,7 @@
   "description": "Blank",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "webpack",
     "start": "webpack serve --open",
     "push": "git subtree push --prefix dist origin gh-pages"
@@ -20,6 +20,7 @@
     "eslint": "^9.3.0",
     "globals": "^15.3.0",
     "html-webpack-plugin": "^5.6.0",
+    "jest": "^29.7.0",
     "prettier": "3.2.5",
     "style-loader": "^4.0.0",
     "webpack": "^5.91.0",

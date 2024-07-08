@@ -22,6 +22,9 @@ Prettier Resolution (Optional but recommended) (https://github.com/prettier/pret
 Babel-loader (https://github.com/babel/babel-loader)
 ```npm install -D babel-loader @babel/core @babel/preset-env webpack```
 
+Jest
+```npm i --save-dev jest```
+
 Build
 ```npm run build```
 
