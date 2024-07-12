@@ -50,6 +50,13 @@ Build
 ### NPM Scripts:
 - ```npm run build```
 - ```npm run start```
+- Jest scripts
+```
+npm test 
+```
+```
+npm run watch 
+```
 >>>>>>> b21c425260ae61d32304865b892fc8bc4e0c6a3e
 
 ### Deploying 'dist' subdirectory to Github Pages (https://gist.github.com/cobyism/4730490)
